@@ -1,0 +1,18 @@
+{
+  "name": "express-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tech City",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "http-msgs": "^1.0.9",
+    "jwt-login": "0.0.3",
+    "user-groups-roles": "^2.0.4"
+  }
+}
