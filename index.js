@@ -45,7 +45,18 @@ roles.addPrivilegeToRole("author",["/article", "POST"],true);
 
 //login html file
 app.get("/login", function(req, res){
-    res.sendFile(__dirname + "/login.html");
+    res.sendFile(__dirname + "/html/login.html");
+});
+
+app.get("/post", function(req, res){
+    res.sendFile(__dirname + "/html/post.html");
+});
+app.get("/put", function(req, res){
+    res.sendFile(__dirname + "/html/put.html");
+});
+
+app.get("/delete", function(req, res){
+    res.sendFile(__dirname + "/html/delete.html");
 });
 
 //login
